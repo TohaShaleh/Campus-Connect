@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style-about.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+</head>
+<body>
+
+    <!-- HEADER SECTION  -->
+
+    <section class="sub-header">
+        <nav>
+           <a href="home.html"><img src="eduford_img/logo.png" alt=""></a>
+             <div class="nav-links" id="navlinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html ">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        
+    </section>
+
+    <!-- about us content  -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are worlds largest university</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Porro, illo at. Asperiores similique explicabo doloribus 
+                    facere ipsam error quam quas in aliquid accusamus quasi 
+                    veniam voluptatibus cumque omnis provident, enim assumenda ex 
+                    ipsum dignissimos eligendi molestiae 
+                    eveniet harum? Iste, quidem?
+                </p>
+                <a href="" class="hero-btn red-btn">Explore now</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/about.jpg" alt="">
+
+            </div>
+        </div>
+
+    </section>
+
+    
+
+   
+     
+
+
+
+
+
+     <!-- ----FOOTER---  -->
+
+     <section class="footer">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             nostrum necessitatibus ex deleniti optio placeat 
+             consequuntur perferendis, nulla saepe!
+        </p>
+        <div class="icons">
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instagram"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+     </section>
+
+
+
+
+
+    <!-- Javasript for toggle Menu  -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+
+
+
+
+</body>
+</html>

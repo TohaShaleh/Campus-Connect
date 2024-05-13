@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="style-blog.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+</head>
+<body>
+
+    <!-- HEADER SECTION  -->
+
+    <section class="sub-header">
+        <nav>
+           <a href="home.html"><img src="eduford_img/logo.png" alt=""></a>
+             <div class="nav-links" id="navlinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html ">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>our certificate and online programs for 2023 </h1>     
+    </section>
+
+
+    <!-- blog page content  -->
+
+    <section class="blog-content">
+        <div class="row">
+           <div class="blog-left">
+            <img src="eduford_img/certificate.jpg" alt="">
+            <h2>our certificate and online programs for 2023</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde natus ipsa dolorum recusandae nam dolorem, omnis dignissimos totam delectus laudantium rerum eaque possimus perferendis, earum, doloremque deleniti eveniet dicta autem.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem a impedit alias libero suscipit rerum reiciendis, ipsam fuga, incidunt dignissimos harum molestias adipisci? Ab, ad.</p>
+             <br>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita alias dolores distinctio, neque repellat aliquid eius, doloremque facere eos blanditiis quaerat quas saepe at tempora corrupti a architecto deleniti illum praesentium illo. Atque deserunt velit tenetur?</p>
+             <br>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae magnam exercitationem earum illum perferendis sapiente assumenda voluptates blanditiis minima, odio reprehenderit ex adipisci quae repellendus, laboriosam perspiciatis nisi.</p>
+             <br>
+
+             <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="6" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+          
+             </div>
+
+
+
+           </div>
+           <div class="blog-right">
+            <h3>post categories</h3>
+            <div>
+                <span>Business analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data science</span>
+                <span>18</span>
+            </div>
+            <div>
+                <span>Machine learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>24</span>
+            </div>
+           </div>
+        </div>
+        
+
+    </section>
+ 
+
+    
+   
+     
+
+
+
+
+
+     <!-- ----FOOTER---  -->
+
+     <section class="footer">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+             nostrum necessitatibus ex deleniti optio placeat 
+             consequuntur perferendis, nulla saepe!
+        </p>
+        <div class="icons">
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instagram"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+     </section>
+
+
+
+
+
+    <!-- Javasript for toggle Menu  -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+
+
+
+
+</body>
+</html>

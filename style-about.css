@@ -1,0 +1,49 @@
+.about-us{
+    width:80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 10px;
+
+}
+.about-col img{
+
+    width:76%;
+    /* margin-top: 90px; */
+
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 30px;
+}
+.red-btn{
+    border:1px solid green;
+    background: transparent;
+    color:black;
+
+}
+.red-btn:hover{
+    color:white;
+}
+
+@media(max-width:700px){
+    .footer h2{
+        text-align: left;
+        /* margin:10px 0; */
+    }
+    .footer p{
+        text-align: left;
+        margin:0;
+        /* padding: 0; */
+    }
+    .about-us h1{
+        /* font-weight: 550; */
+        font-size: 25px;
+    }
+}
