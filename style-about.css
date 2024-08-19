@@ -3,6 +3,7 @@
     margin: auto;
     padding-top: 80px;
     padding-bottom: 50px;
+    padding-left: 10px;
 
 }
 .about-col{
@@ -13,7 +14,8 @@
 .about-col img{
 
     width:76%;
-    /* margin-top: 90px; */
+    margin-top: 90px;
+    margin-bottom: auto;
 
 }
 .about-col h1{
@@ -29,18 +31,19 @@
 
 }
 .red-btn:hover{
-    color:white;
+    color:rgb(108, 86, 86);
+    background-color: antiquewhite;
 }
 
 @media(max-width:700px){
     .footer h2{
         text-align: left;
-        /* margin:10px 0; */
+        margin:10px 0;
     }
     .footer p{
         text-align: left;
         margin:0;
-        /* padding: 0; */
+        padding: auto;
     }
     .about-us h1{
         /* font-weight: 550; */
