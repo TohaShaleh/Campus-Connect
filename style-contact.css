@@ -42,3 +42,16 @@
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+.tt{
+    background-color: antiquewhite;
+    color:rgb(240, 58, 58);
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    font-size: large;
+}
+.tt:hover{
+    cursor: pointer;
+    background-color: darkorange;
+    font-size: larger;
+}
