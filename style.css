@@ -79,11 +79,12 @@ nav img{
 }
 .hero-btn{
     display:block;
+    font-weight: bold;
     text-decoration: none;
-    color:#555;
+    color:#f13434;
     border:1px solid rgb(230, 176, 176);
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 23px;
     /* background: transparent; */
     position: relative;
     cursor:pointer;
@@ -91,7 +92,7 @@ nav img{
 }
 .hero-btn:hover{
     border:1px solid green;
-    background: red;
+    background: rgb(241, 177, 177);
     transition: 0.4s;
 }
 nav .fa{
