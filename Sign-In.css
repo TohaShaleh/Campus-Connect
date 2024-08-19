@@ -32,3 +32,21 @@ html,body{
     height: 40px;
     width: 230px;
 }
+.signup{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    background-color: aquamarine;
+
+}
+#btn:hover{
+    background-color: chocolate;
+    cursor: pointer;
+
+}
