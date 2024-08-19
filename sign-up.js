@@ -10,17 +10,41 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
     if(email && password)
         {
-            localStorage.setItem(email,password);
+            if(password==localStorage.getItem(email))
+                {
+                    alert("You Don't Need to Sign Up..Already have Account!!")
+                }
+                else{
+                    localStorage.setItem(email,password);
+                    alert("Congratulations ! You have successfully Sign Up...")
+                }
         }
     else
     {
         alert("Please fill up carefully with your email and password");
     }
 
-    alert("Congratulations ! You have successfully Sign Up...")
+    // alert("Congratulations ! You have successfully Sign Up...")
     
     var name=firstName+lastName;
     var pass=localStorage.getItem(email);
+
+    // localStorage.clear();  --> To remove all key-value pairs from localStorage
+    // This method removes everything stored in localStorage, so use it with caution.
+
+    // localStorage.removeItem('key');
+    // Replace 'key' with the name of the item you want to remove.
+
+
+    // Add some data to localStorage for demonstration
+   localStorage.setItem('username', 'JohnDoe');
+   localStorage.setItem('email', 'john.doe@example.com');
+
+    // Remove a specific item
+    localStorage.removeItem('username'); // Removes the 'username' key
+
+
+
     
 
 });

@@ -18,4 +18,11 @@ document.querySelector('form').addEventListener('submit', function(event) {
         alert("You Don't Have any Acconut , Please Sigb-Up First!!");
     }
 
+     // localStorage.clear();  --> To remove all key-value pairs from localStorage
+    // This method removes everything stored in localStorage, so use it with caution.
+
+    // localStorage.removeItem('key');
+    // Replace 'key' with the name of the item you want to remove.
+
+
 });
