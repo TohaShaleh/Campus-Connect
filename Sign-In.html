@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Sign-In.css">
+</head>
+
+</head>
+<body>
+
+    <!-- HEADER SECTION  -->
+
+    <section class="sub-header">
+        <nav>
+           <a href="home.html"><img src="eduford_img/logo.png" alt=""></a>
+             <div class="nav-links" id="navlinks">
+                <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html ">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="Sign-In.html">SIGN IN</a></li>
+                </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <!-- <button class="tt">Contact Us</button> -->
+        <div class="signin">
+            <h1>Sign In your with your Email and Password</h1> <br> <br> 
+        </div>
+        
+        
+    </section>
+    <div class="noacc">
+        <form action="sign-in">
+            <label for="">Enter your first Name :</label>
+            <input type="text"  value="" id="fname" class="inp" required> <br>
+            <br>
+            <label for="">Enter your last name : </label>
+            <input type="text"  value="" id="lname" class="inp" required> <br>
+            <br>
+            <label for="">Enter Your Email : </label>
+            <input type="email"  value="" id="email" class="inp" required> <br> <br>
+            <label for="">Enter your Password</label>
+            <input type="password" value="" id="pass" required class="inp"> <br> <br>
+            <input type="submit" id="sub" class="inp">
+        </form>
+        
+    </div>
+ <script src="sign-in.js"></script>
+    </body>
